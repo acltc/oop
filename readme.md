@@ -20,10 +20,16 @@ By working through the following exercises, we will introduce you to Object Orie
   a. In your opinion, what advantages does oop_todo have over procedural_todo?
   b. In your opinion, what advantages does procedural_todo have over oop_todo?
 
-5. Let's add some more functionality to our application (the OOP version). Inside task.rb, add a new method called toggle_complete! that will do the following: If the task is currently marked as complete, it will now be marked as incomplete, and if it is currently marked as incomplete, it will now be marked as complete. Test this functionality by adding more code to oop_todo.rb
+Let's add some more functionality to our application (the OOP version)!
 
-6. Let's add even more functionality to our application (the OOP version). 
+5. Add a new method to Task called toggle_complete! that will do the following: If the task is currently marked as complete, it will now be marked as incomplete, and if it is currently marked as incomplete, it will now be marked as complete. Test this functionality by adding more code to oop_todo.rb.
+
+6. Add another method to List called number_of_incomplete_tasks which will return the number of incomplete tasks in the list.
+
+7. Add another method to List called delete_complete_tasks which will delete all complete tasks from the list.
+
+8. 
   a. Tasks should be able to be assigned a priority from 1 to 10. 10 indicates the highest level priority, while 1 indicates the lowest level priority. A task should also have a method called priority so that you can check what the priority of the task is. Modify task.rb so that this is all possible, and test it out using oop_todo.
-  b. Now, let's make it so that we can see all the tasks of a list in order of priority highest to lowest. Add a method to List call sort_by_priority that will return an array of task names, sorted by priority highest to lowest. You may have to look up the 'sort' method on arrays.
+  b. Now, let's make it so that we can see all the tasks of a list in order of priority highest to lowest. Add a method to List call sort_by_priority that will return an array of task names, sorted by priority highest to lowest. (Hint: The 'sort' method available to arrays is your friend).
 
-7. Add another method to List called delete_complete_tasks which will delete all complete tasks from the list. 
+ 
