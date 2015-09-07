@@ -20,9 +20,7 @@ By working through the following exercises, we will introduce you to Object Orie
   a. In your opinion, what advantages does oop_todo have over procedural_todo?
   b. In your opinion, what advantages does procedural_todo have over oop_todo?
 
-Let's add some more functionality to our application (the OOP version)!
-
-5. Add a new method to Task called toggle_complete! that will do the following: If the task is currently marked as complete, it will now be marked as incomplete, and if it is currently marked as incomplete, it will now be marked as complete. Test this functionality by adding more code to oop_todo.rb.
+5. Let's add some more functionality to our application (the OOP version)! Add a new method to Task called toggle_complete! that will do the following: If the task is currently marked as complete, it will now be marked as incomplete, and if it is currently marked as incomplete, it will now be marked as complete. Test this functionality by adding more code to oop_todo.rb.
 
 6. Add another method to List called number_of_incomplete_tasks which will return the number of incomplete tasks in the list.
 
