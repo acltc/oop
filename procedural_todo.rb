@@ -1,3 +1,6 @@
+
+
+
 # Create list
 list = []
 
@@ -11,7 +14,7 @@ puts "Second task:"
 puts list[1]["name"]
 puts "--------"
 
-# Get an array containing all incomplete tasks from the list
+# Get an array containing the names of all incomplete tasks from the list
 incomplete_tasks = []
 list.each do |task|
   unless task["complete"]
@@ -23,6 +26,7 @@ end
 puts "Incomplete Tasks:"
 puts incomplete_tasks
 puts "--------"
+
 # Mark the first task from the list as complete
 list[0]["complete"] = true
 
