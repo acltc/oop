@@ -32,7 +32,7 @@ To download these files, you can simply click on the 'Download ZIP' button to th
 
 8. 
   a. Tasks should be able to be assigned a priority from 1 to 10. 10 indicates the highest level priority, while 1 indicates the lowest level priority. A task should also have a method called priority so that you can check what the priority of the task is. Modify task.rb so that this is all possible, and test it out using oop_todo.
-  b. Now, let's make it so that we can see all the tasks of a list in order of priority highest to lowest. Add a method to List call sort_by_priority that will return an array of task names, sorted by priority highest to lowest. (Hint: The 'sort' method available to arrays is your friend).
+  b. Now, let's make it so that we can see all the tasks of a list in order of priority highest to lowest. Add a method to List call sort_by_priority that will return an array of task names, sorted by priority highest to lowest. (Hint: The [sort](http://ruby-doc.org/core-2.2.3/Enumerable.html#method-i-sort) method available to arrays is your friend).
 
 ### The Song List App
 
