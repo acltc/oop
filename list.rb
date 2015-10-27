@@ -9,7 +9,7 @@ class List
     @tasks << task
   end
 
-  def incomplete_tasks
+  def incomplete_tasks #returns the NAMES of incomplete tasks
     incomplete_task_names = []
     @tasks.each do |task|
       unless task.complete
