@@ -1,5 +1,7 @@
 #Introduction to Object Oriented Programming
 
+NOTE: THIS EXERCISE IS SIGNIFICANTLY MORE DIFFICULT THAN THE PREVIOUS ONES. IT'S NOT JUST YOU.
+
 ##Instructions
 
 This project represents the codebase for an application that serves as a Todo list. (Think something along the lines of [this](http://todomvc.com/examples/vanillajs), but just in your terminal.)
@@ -42,11 +44,12 @@ Similar to the Todo App, this app will have two classes, Song and List, and a li
 
 A. A Song should have the following attributes:
 
-artist - The creator of the Song. This will be represented using a string.
-duration - The length of a Song in seconds. This will be represented by a number.
-lyrics - The lyrics of the Song. This will be represneted with a string.
+title - The name of the song.
+artist - The creator of the song. This will be represented using a string.
+duration - The length of a song in seconds. This will be represented by a number.
+lyrics - The lyrics of the song. This will be represneted with a string.
 
-One should be able to call the artist, duration, and lyrics methods on a particular Song instance to view any of those pieces of information.
+One should be able to call the title, artist, duration, and lyrics methods on a particular Song instance to view any of those pieces of information.
 
 B. A Song should also have a play method, which will "play" the song. Depending on your hardware, how you play the Song will vary. If you're on a Mac, you can use the following to actually get your computer to sound out the lyrics:   
 

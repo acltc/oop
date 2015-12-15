@@ -16,7 +16,7 @@ puts "---------"
 
 # Get an array containing the names of all incomplete tasks from the list
 puts "Incomplete Tasks:"
-puts list.incomplete_tasks
+puts list.incomplete_task_names
 puts "--------"
 
 
@@ -32,4 +32,4 @@ list.tasks[0].complete!
 
 # Print out the incomplete tasks again
 puts "Incomplete Tasks:"
-puts list.incomplete_tasks
+puts list.incomplete_task_names
