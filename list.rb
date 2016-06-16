@@ -1,8 +1,11 @@
 class List
-  attr_reader :tasks
 
   def initialize
     @tasks = []
+  end
+
+  def tasks
+    return @tasks
   end
 
   def add_task(task)
